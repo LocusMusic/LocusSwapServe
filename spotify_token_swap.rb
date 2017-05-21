@@ -37,9 +37,9 @@ require 'encrypted_strings'
 #
 # Find your app at https://developer.spotify.com/my-applications/#!/applications
 
-CLIENT_ID = "998109b54614480c81c056df333702a2" # TODO: Get it from Spotify
-CLIENT_SECRET = "a4ac3e985ccb45f999b19fdfea0875f3" # TODO: Get it from Spotify
-CLIENT_CALLBACK_URL = "spottunes://returnAfterLogin" # TODO: Get it from Spotify
+CLIENT_ID = "a437ecfea80e46209b7ec5c416af6cf6" # TODO: Get it from Spotify
+CLIENT_SECRET = "24bc849ef9ed4432bbd92a14a90ffca5" # TODO: Get it from Spotify
+CLIENT_CALLBACK_URL = "locus://returnAfterLogin" # TODO: Get it from Spotify
 
 # I don't think the secret should be changed...
 ENCRYPTION_SECRET = "cFJLyifeUJUBFWdHzVbykfDmPHtLKLGzViHW9aHGmyTLD8hGXC"
@@ -113,6 +113,3 @@ post '/refresh' do
     return response.body
 
 end
-
-
-
